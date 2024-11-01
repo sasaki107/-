@@ -1,0 +1,15 @@
+#include<float.h>
+#include<limits.h>
+#include<stdio.h>
+
+int main(void)
+{
+    printf("float型の最大値:%d\n",DBL_MAX);
+    printf("float型の最大値型の最小値:%d\n",DBL_MIN);
+    printf("float型の精度:%d\n",DBL_DIG);
+    printf("short int型の最大値:%d\n",INT_MAX);
+    printf("long double型の最小値:%d\n",INT_MIN);
+    
+    return 0;
+    
+}
