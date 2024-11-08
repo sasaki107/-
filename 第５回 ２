@@ -1,0 +1,16 @@
+int main()
+{
+    int k;
+    printf("How many people?");
+    scanf("%d",&k);
+    
+    if(k>=100)
+    {
+        printf("There are many people");
+    }
+    else
+    {
+        printf("There are few people");
+    }
+    return 0;
+}
