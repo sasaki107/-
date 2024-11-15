@@ -1,0 +1,24 @@
+int main(void)
+{
+    int breakfast,lunch,dinner;
+    
+    breakfast=500;
+    lunch=700;
+    dinner=1000;
+    
+    if(breakfast==500)
+    printf("朝ごはんは500キロカロリーです\n");
+    if(lunch!=500)
+    printf("昼ごはんは500キロカロリーではありません\n");
+    if(lunch>=500)
+    printf("お昼ごはんは500キロカロリー以上です\n");
+    if(dinner<1000)
+    printf("夜ご飯は1000キロカロリー未満です\n");
+     
+    if(dinner>lunch)
+    printf("夜ごはんは昼ごはんよりも美味しいです\n");
+    if(lunch>breakfast)
+    printf("お昼ごはんは朝ごはんよりも美味しいです\n");
+
+    return 0;
+}
